@@ -8,18 +8,13 @@
 
         --linear-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
 
-        --color-highlight-header: hsl(0, 0%, 23%);
-        --color-paragraph: hsl(240, 3%, 45%);
-        --color-paragraph-dark: hsl(0, 0%, 70%);
-        --color-bg-mute: hsl(240, 9%, 18%);
-
         --color-bg-dark: hsl(0 0% 0%);
         --color-bg: hsl(0 0% 5%);
         --color-bg-light: hsl(0 0% 10%);
         --color-text: hsl(0 0% 95%);
         --color-text-mute: hsl(0 0% 70%);
 
-        --color-border: hsl(0 0% 60%);
+        --color-border: hsl(0 0% 30%);
         --border-card: 1px solid var(--color-border);
         --border-highlight: hsl(0 0% 20%);
 
@@ -307,7 +302,7 @@
 
     #how-works .screenshot-wrap img.img-thumbnail {
         background: var(--color-bg-light) !important;
-        border-radius: var(--border-card);
+        border: var(--border-card) !important;
     }
 
     #how-works .step-box {
@@ -318,7 +313,7 @@
 
     .step-badge {
         background: var(--color-primary);
-        color: #fff;
+        color: var(--color-text);
         padding: .35rem .6rem;
         border-radius: 25px;
         font-weight: 600;
@@ -326,7 +321,7 @@
     }
 
     code {
-        background: transparent;
+        background: transparent !important;
         padding: 0 .25rem;
         border-radius: .25rem;
     }
