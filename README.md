@@ -26,7 +26,7 @@ A clean and responsive landing page built using HTML, CSS and Bootstrap for a Ta
 
 ### Screenshot
 
-![Webpage Design](https://github.com/awizp/mp3-downloader-landingpage/img/design.png)
+![Webpage Design](https://github.com/awizp/mp3-downloader-landingpage/blob/main/img/design.png)
 
 ### Live Demo
 https://awizp.github.io/mp3-downloader-landingpage/
