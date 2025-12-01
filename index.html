@@ -20,7 +20,7 @@
 
 <body class="bg-dark text-white">
     <!-- ****** header section ****** -->
-    <header class="header_section">
+    <header class="header_section" id="home">
         <!-- ****** navbar section ****** -->
         <nav class="nav_section navbar navbar-expand-lg navbar-dark navbar-dark-custom py-3">
             <div class="container">
@@ -44,7 +44,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#how-works">How Works?</a>
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#how-works">How It Works?</a>
                         </li>
 
                         <li class="nav-item">
@@ -64,17 +68,16 @@
         </nav>
 
         <!-- ****** hero section ****** -->
-        <section class="hero_section d-flex align-items-center" id="home">
+        <section class="hero_section d-flex align-items-center">
             <div class="container text-center text-white">
-                <h3 class="text-mute mb-2">Introducing to You</h3>
+                <h3 class="text-mute mb-4">Introducing to You</h3>
 
-                <h1 class="fw-bold mb-3">
-                    Download MP3 Songs in One Simple Click
+                <h1 class="fw-bold mb-4">
+                    Download MP3 Songs in One <span class="header-text">Simple Click</span>
                 </h1>
 
-                <p class="text-mute lead mb-4">
-                    A fast and easy Tamil MP3 downloader built using Python available on GitHub for quick and seamless
-                    audio downloads.
+                <p class="text-mute lead mb-5">
+                    A fast Tamil MP3 downloader built by Python for quick audio downloads.
                 </p>
 
                 <a href="https://github.com/anburocky3/tamil-mp3-downloader/releases/latest/download/tamil-mp3-downloader-v2.0.0.exe"
@@ -88,11 +91,53 @@
 
     <!-- ****** main section ****** -->
     <main class="main_section">
+        <!-- ****** about section ****** -->
+        <section class="about_section" id="about" class="py-5">
+            <div class="container">
+                <div class="row align-items-center g-4">
+
+                    <!-- about banner -->
+                    <div class="col-12 col-md-5">
+                        <div class="about-banner rounded-4 overflow-hidden shadow-sm">
+                            <img src="./img/about-bg.jpg" alt="MP3 Downloader" class="img-fluid w-100 d-block">
+                        </div>
+                    </div>
+
+                    <!-- about content -->
+                    <div class="col-12 col-md-7">
+                        <div class="about-content p-4 p-md-5 rounded-4">
+                            <h2 class="fw-bold mb-3">About MP3 Downloader</h2>
+
+                            <p class="text-mute mb-3">
+                                A simple, open source tool that fetches high quality Tamil and regional audio tracks and
+                                saves them straight to your device fast and reliably.
+                            </p>
+
+                            <p class="text-mute mb-3">
+                                The app runs from the client machine, it opens a terminal session where users can choose
+                                categories or paste source links.
+                            </p>
+
+                            <p class="text-mute mb-3">
+                                The tool then converts and places downloaded MP3 files into a local output folder on the
+                                user's computer.
+                            </p>
+
+                            <div class="mt-5">
+                                <a href="https://github.com/anburocky3/tamil-mp3-downloader/blob/main/README.md"
+                                    class="btn btn-custom me-2"><i class="bi bi-github me-2"></i>Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- ****** features section ****** -->
         <section class="features_section py-5" id="features">
             <div class="container">
-                <div class="text-center mb-4">
-                    <h2 id="features-title" class="fw-bold">Key Features</h2>
+                <div class="features-title text-center mb-4">
+                    <h2 class="fw-bold mb-3">Key Features</h2>
                     <p class="text-mute mb-0">Why MP3 Downloader is simple, fast and trustworthy</p>
                 </div>
 
@@ -152,53 +197,11 @@
             </div>
         </section>
 
-        <!-- ****** about section ****** -->
-        <section class="about_section" id="about" class="py-5">
-            <div class="container">
-                <div class="row align-items-center g-4">
-
-                    <!-- about banner -->
-                    <div class="col-12 col-md-5">
-                        <div class="about-banner rounded-4 overflow-hidden shadow-sm">
-                            <img src="./img/about-bg.jpg" alt="MP3 Downloader" class="img-fluid w-100 d-block">
-                        </div>
-                    </div>
-
-                    <!-- about content -->
-                    <div class="col-12 col-md-7">
-                        <div class="about-content p-4 p-md-5 rounded-4">
-                            <h2 class="fw-bold mb-3">About MP3 Downloader</h2>
-
-                            <p class="text-mute mb-3">
-                                A simple, open source tool that fetches high quality Tamil and regional audio tracks and
-                                saves them straight to your device fast and reliably.
-                            </p>
-
-                            <p class="text-mute mb-3">
-                                The app runs from the client machine, it opens a terminal session where users can choose
-                                categories or paste source links.
-                            </p>
-
-                            <p class="text-mute mb-3">
-                                The tool then converts and places downloaded MP3 files into a local output folder on the
-                                user's computer.
-                            </p>
-
-                            <div class="mt-3">
-                                <a href="https://github.com/anburocky3/tamil-mp3-downloader/blob/main/README.md"
-                                    class="btn btn-custom me-2"><i class="bi bi-github me-2"></i>Know More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- ****** how works section ****** -->
         <section id="how-works" class="how_section py-5">
             <div class="container">
-                <div class="text-center mb-4">
-                    <h2 class="fw-bold">How It Works</h2>
+                <div class="how-title text-center mb-4">
+                    <h2 class="fw-bold mb-3">How It Works</h2>
                     <p class="text-mute">Five simple steps follow in the terminal and get your songs.</p>
                 </div>
 
@@ -285,7 +288,7 @@
                                 <div class="col-12 col-lg-6 order-1 order-lg-2">
                                     <div class="screenshot-wrap rounded-3 overflow-hidden shadow-sm">
                                         <img src="./img/output.png" alt="Terminal screenshot: output folder"
-                                            class="img-fluid w-100 d-block">
+                                            class="img-fluid w-100 d-block img-thumbnail">
                                     </div>
                                 </div>
                             </div>
@@ -346,13 +349,13 @@
         <section id="cta" class="cta_section py-5 text-white">
             <div class="container text-center">
                 <h2 class="fw-bold mb-3">Want To Contribute in Code?</h2>
-                <p class="mb-4 text-mute">
+                <p class="mb-5 text-mute">
                     Explore the code, contribute improvements, fix bugs, or create new features.
                     Your pull requests make this project better for everyone.
                 </p>
 
                 <a href="https://github.com/anburocky3/tamil-mp3-downloader/blob/main/CONTRIBUTING.md"
-                    class="btn btn-custom d-inline-flex align-items-center gap-2">
+                    class="btn btn-lg btn-custom d-inline-flex align-items-center mt-2 gap-2">
                     <i class="bi bi-file-pdf-fill"></i>
                     Read Docs
                 </a>
@@ -363,8 +366,8 @@
         <section id="faq" class="faq_section py-5">
             <div class="container">
 
-                <div class="text-center mb-4">
-                    <h2 class="fw-bold">Frequently Asked Questions</h2>
+                <div class="faq-title text-center mb-3">
+                    <h2 class="fw-bold mb-3">Frequently Asked Questions</h2>
                     <p class="text-mute mb-0">Quick answers to help you get started.</p>
                 </div>
 
@@ -381,7 +384,7 @@
                         <div id="c1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body text-muted">
                                 The tool is safe and open source. Users are responsible for following their local
-                                copyright laws.
+                                <a href="https://en.wikipedia.org/wiki/Copyright">copyright laws</a>.
                             </div>
                         </div>
                     </div>
@@ -397,7 +400,10 @@
                         </h3>
                         <div id="c2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body text-muted">
-                                It works on Windows and Linux, all you need is Python installed.
+                                It works on <a href="https://en.wikipedia.org/wiki/Microsoft_Windows">Windows</a> and
+                                <a href="https://en.wikipedia.org/wiki/Linux">Linux</a>, all you need is
+                                <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a>
+                                installed.
                             </div>
                         </div>
                     </div>
@@ -413,7 +419,9 @@
                         </h3>
                         <div id="c3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body text-muted">
-                                The default output is MP3. Additional formats depend on your system’s conversion tools.
+                                The default output is <a href="https://en.wikipedia.org/wiki/MP3">MP3</a>. Additional
+                                formats depend on your system’s <a
+                                    href="https://en.wikipedia.org/wiki/Audio_converter">conversion tools</a>.
                             </div>
                         </div>
                     </div>
@@ -429,7 +437,8 @@
                         </h3>
                         <div id="c4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body text-muted">
-                                You can open an issue on GitHub with your details, logs or ideas for improvements.
+                                You can open an issue on <a href="https://en.wikipedia.org/wiki/GitHub">GitHub</a> with
+                                your details, logs or ideas for improvements.
                             </div>
                         </div>
                     </div>
@@ -443,7 +452,7 @@
         <div class="container">
             <div class="row d-flex flex-column align-items-start g-4">
                 <!-- logo -->
-                <div class="footer-logo col-12 col-md-4 text-center text-md-start">
+                <div class="footer-logo col-12 col-md-6 text-center text-md-start mb-3">
                     <div class="footer-logo d-flex align-items-center justify-content-center justify-content-md-start">
                         <img src="./img/logo.png" alt="MP3 Downloader Logo" class="footer-logo-img me-2">
                         <h4 class="mb-0 fw-bold">MP3 Downloader</h4>
@@ -452,20 +461,60 @@
 
                 <!-- docs links -->
                 <div class="footer-link col-12 col-md-6 text-center text-md-start ms-1">
-                    <ul class="list-unstyled footer-links mb-0">
-                        <div class="row">
-                            <li class="col"><a href="#home">Home</a></li>
-                            <li class="col"><a href="#about">About</a></li>
-                            <li class="col"><a href="#features">Features</a></li>
-                            <li class="col"><a href="#how-works">How It Works</a></li>
-                        </div>
-                    </ul>
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <ul class="list-unstyled footer-links mb-5">
+                            <header class="fw-bold text-white mb-3">Navigation links</header>
+                            <div class="row row-cols-1 g-2">
+                                <li class="col"><a href="#home">Home</a></li>
+                                <li class="col"><a href="#about">About</a></li>
+                                <li class="col"><a href="#features">Features</a></li>
+                                <li class="col"><a href="#how-works">How It Works?</a></li>
+                            </div>
+                        </ul>
+
+                        <ul class="list-unstyled footer-links mb-5">
+                            <header class="fw-bold text-white mb-3">Application links</header>
+                            <div class="row row-cols-1 g-2">
+                                <li class="col">
+                                    <a
+                                        href="https://github.com/anburocky3/tamil-mp3-downloader/releases/latest/download/tamil-mp3-downloader-v2.0.0.exe">Download
+                                        app</a>
+                                </li>
+                                <li class="col">
+                                    <a
+                                        href="https://github.com/anburocky3/tamil-mp3-downloader/blob/main/README.md">Documentation</a>
+                                </li>
+                                <li class="col"><a
+                                        href="https://github.com/anburocky3/tamil-mp3-downloader/blob/main/CONTRIBUTING.md">Contribution</a>
+                                </li>
+                                <li class="col">
+                                    <a href="https://github.com/anburocky3/tamil-mp3-downloader/fork">Forking</a>
+                                </li>
+                            </div>
+                        </ul>
+
+                        <ul class="list-unstyled footer-links mb-0">
+                            <header class="fw-bold text-white mb-3">Author's links</header>
+                            <div class="row row-cols-1 g-2">
+                                <li class="col">
+                                    <a href="https://github.com/anburocky3">Github</a>
+                                </li>
+                                <li class="col">
+                                    <a href="https://anbuselvan-annamalai.com/">Portfolio</a>
+                                </li>
+                                <li class="col">
+                                    <a href="https://www.linkedin.com/in/anburocky3/">LinkedIn</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
                 </div>
 
                 <!-- Copyright -->
-                <div class="footer-copyright col-12 col-md-4 text-center text-md-start">
+                <div class="footer-copyright col-12 col-md-6 text-center text-md-start">
                     <p class="small mb-0 text-white-50">
-                        © <span>2025</span> - MP3 Downloader. All Rights Reserved.
+                        © <span>2025</span> - <a href="#" class="text-white-50">MP3 Downloader</a>. All Rights Reserved
+                        to <a class="text-white-50" href="https://github.com/awizp/">Vishnuprakash</a>.
                     </p>
                 </div>
             </div>
