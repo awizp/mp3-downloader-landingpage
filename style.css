@@ -259,7 +259,7 @@
 @layer about {
     .about_section {
         background: var(--color-bg-light);
-        padding: 5rem;
+        padding: 5rem 0;
     }
 
     .about-banner img {
