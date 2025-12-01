@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <title>Tamil MP3 Downloader - Download 1K+ songs in single click</title>
+
+    <!-- ****** Bootstrap style ****** -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- ****** Bootstrap icons ****** -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- ****** style sheet ****** -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-dark text-white">
+    <!-- ****** header section ****** -->
+    <header class="header_section">
+        <!-- ****** navbar section ****** -->
+        <nav class="nav_section navbar navbar-expand-lg navbar-dark navbar-dark-custom py-3">
+            <div class="container">
+                <!-- brand logo -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="./img/logo.png" alt="Logo" class="me-2">
+                    MP3 Downloader
+                </a>
+
+                <!-- hamburger icon -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- navigation items -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#how-works">How Works?</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+
+                        <!-- gitHub -->
+                        <li class="nav-item mt-2 mt-lg-0 ms-lg-3">
+                            <a class="btn-custom btn btn-light d-flex align-items-center justify-content-center"
+                                href="#" target="_blank">
+                                <i class="bi bi-github me-2"></i> GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ****** hero section ****** -->
+        <section class="hero_section d-flex align-items-center" id="home">
+            <div class="container text-center text-white">
+                <h3 class="text-mute mb-2">Introducing to You</h3>
+
+                <h1 class="fw-bold mb-3">
+                    Download MP3 Songs in One Simple Click
+                </h1>
+
+                <p class="text-mute lead mb-4">
+                    A fast and easy Tamil MP3 downloader built using Python available on GitHub for quick and seamless
+                    audio downloads.
+                </p>
+
+                <a href="https://github.com/anburocky3/tamil-mp3-downloader/releases/latest/download/tamil-mp3-downloader-v2.0.0.exe"
+                    class="btn btn-custom btn-lg px-4">
+                    Download
+                    <i class="bi bi-download"></i>
+                </a>
+            </div>
+        </section>
+    </header>
+
+    <!-- ****** main section ****** -->
+    <main class="main_section">
+        <!-- ****** features section ****** -->
+        <section class="features_section py-5" id="features">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2 id="features-title" class="fw-bold">Key Features</h2>
+                    <p class="text-mute mb-0">Why MP3 Downloader is simple, fast and trustworthy</p>
+                </div>
+
+                <div class="row g-4 mt-3">
+                    <!-- Feature 1 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="feature-card h-100 p-4 rounded-3 bg-body-secondary d-flex flex-column">
+                            <div
+                                class="icon-wrap mb-3 d-inline-flex align-items-center justify-content-center rounded-circle">
+                                <i class="bi bi-lightning-fill" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="h5 fw-semibold">One Click Downloads</h3>
+                            <p class="mb-0 text-mute">Save songs instantly no complex steps, just click and download.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="feature-card h-100 p-4 rounded-3 bg-body-secondary d-flex flex-column">
+                            <div
+                                class="icon-wrap mb-3 d-inline-flex align-items-center justify-content-center rounded-circle">
+                                <i class="bi bi-translate" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="h5 fw-semibold">Supports Tamil & More</h3>
+                            <p class="mb-0 text-mute">Regional tags and Sorted so your library stays
+                                organized.</p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="feature-card h-100 p-4 rounded-3 bg-body-secondary d-flex flex-column">
+                            <div
+                                class="icon-wrap mb-3 d-inline-flex align-items-center justify-content-center rounded-circle">
+                                <i class="bi bi-speedometer2" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="h5 fw-semibold">Lightweight & Fast</h3>
+                            <p class="mb-0 text-mute">Small footprint and optimized downloads for minimal wait time.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="feature-card h-100 p-4 rounded-3 bg-body-secondary d-flex flex-column">
+                            <div
+                                class="icon-wrap mb-3 d-inline-flex align-items-center justify-content-center rounded-circle">
+                                <i class="bi bi-code-slash" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="h5 fw-semibold">Open Source</h3>
+                            <p class="mb-0 text-mute">Full source on GitHub inspect, fork and contribute with
+                                confidence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ****** about section ****** -->
+        <section class="about_section" id="about" class="py-5">
+            <div class="container">
+                <div class="row align-items-center g-4">
+
+                    <!-- about banner -->
+                    <div class="col-12 col-md-5">
+                        <div class="about-banner rounded-4 overflow-hidden shadow-sm">
+                            <img src="./img/about-bg.jpg" alt="MP3 Downloader" class="img-fluid w-100 d-block">
+                        </div>
+                    </div>
+
+                    <!-- about content -->
+                    <div class="col-12 col-md-7">
+                        <div class="about-content p-4 p-md-5 rounded-4">
+                            <h2 class="fw-bold mb-3">About MP3 Downloader</h2>
+
+                            <p class="text-mute mb-3">
+                                A simple, open source tool that fetches high quality Tamil and regional audio tracks and
+                                saves them straight to your device fast and reliably.
+                            </p>
+
+                            <p class="text-mute mb-3">
+                                The app runs from the client machine, it opens a terminal session where users can choose
+                                categories or paste source links.
+                            </p>
+
+                            <p class="text-mute mb-3">
+                                The tool then converts and places downloaded MP3 files into a local output folder on the
+                                user's computer.
+                            </p>
+
+                            <div class="mt-3">
+                                <a href="https://github.com/anburocky3/tamil-mp3-downloader/blob/main/README.md"
+                                    class="btn btn-custom me-2"><i class="bi bi-github me-2"></i>Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ****** how works section ****** -->
+        <section id="how-works" class="how_section py-5">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2 class="fw-bold">How It Works</h2>
+                    <p class="text-mute">Five simple steps follow in the terminal and get your songs.</p>
+                </div>
+
+                <div id="howWorksCarousel" class="carousel slide" data-bs-ride="false"
+                    aria-label="How to download using terminal">
+                    <div class="carousel-inner">
+
+                        <!-- Slide 1 -->
+                        <div class="carousel-item active">
+                            <div class="row align-items-center g-4">
+                                <div class="col-12 col-lg-6">
+                                    <div class="screenshot-wrap rounded-3 overflow-hidden shadow-sm">
+                                        <img src="./img/Open.png" alt="open terminal" class="img-fluid w-100 d-block">
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-lg-6">
+                                    <div class="p-4 p-md-5 rounded-3 step-box">
+                                        <span class="badge step-badge">Step 1</span>
+                                        <h3 class="mt-3">Open the Terminal</h3>
+                                        <p class="text-mute">Open your system terminal and change to the downloader
+                                            folder. Run the app to show the menu.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="carousel-item">
+                            <div class="row align-items-center g-4">
+                                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                                    <div class="p-4 p-md-5 rounded-3 step-box">
+                                        <span class="badge step-badge">Step 2</span>
+                                        <h3 class="mt-3">Select a Category</h3>
+                                        <p class="text-mute">Type the number of the category you want (e.g., Star Hits)
+                                            and press Enter to confirm.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-lg-6 order-1 order-lg-2">
+                                    <div class="screenshot-wrap rounded-3 overflow-hidden shadow-sm">
+                                        <img src="./img/ringtone.png" alt="select category"
+                                            class="img-fluid w-100 d-block">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="carousel-item">
+                            <div class="row align-items-center g-4">
+                                <div class="col-12 col-lg-6">
+                                    <div class="screenshot-wrap rounded-3 overflow-hidden shadow-sm">
+                                        <img src="./img/download.png" alt="start download"
+                                            class="img-fluid w-100 d-block">
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-lg-6">
+                                    <div class="p-4 p-md-5 rounded-3 step-box">
+                                        <span class="badge step-badge">Step 3</span>
+                                        <h3 class="mt-3">Start Download</h3>
+                                        <p class="text-mute">Choose a track number or type “all” to download. The app
+                                            shows real time progress as it downloads and converts.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 4 -->
+                        <div class="carousel-item">
+                            <div class="row align-items-center g-4">
+                                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                                    <div class="p-4 p-md-5 rounded-3 step-box">
+                                        <span class="badge step-badge">Step 4</span>
+                                        <h3 class="mt-3">Locate Output Folder</h3>
+                                        <p class="text-mute">When finished, open the shown output folder
+                                            <code>./output/&lt;CategoryName&gt;/&lt;AlbumName&gt;/</code> to access your
+                                            MP3 files.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-lg-6 order-1 order-lg-2">
+                                    <div class="screenshot-wrap rounded-3 overflow-hidden shadow-sm">
+                                        <img src="./img/output.png" alt="Terminal screenshot: output folder"
+                                            class="img-fluid w-100 d-block">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 5 -->
+                        <div class="carousel-item">
+                            <div class="row align-items-center g-4">
+                                <div class="col-12 col-lg-6">
+                                    <div class="screenshot-wrap rounded-3 overflow-hidden shadow-sm">
+                                        <img src="./img/close.png" alt="exit" class="img-fluid w-100 d-block">
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-lg-6">
+                                    <div class="p-4 p-md-5 rounded-3 step-box text-center text-lg-start">
+                                        <span class="badge step-badge">Step 5</span>
+                                        <h3 class="mt-3">Close the Terminal</h3>
+                                        <p class="text-mute">Type <code>exit</code> or close the window. Your
+                                            downloaded songs remain in the output folder.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#howWorksCarousel"
+                        data-bs-slide="prev" aria-label="Previous step">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#howWorksCarousel"
+                        data-bs-slide="next" aria-label="Next step">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+
+                    <!-- Indicators -->
+                    <div class="d-flex justify-content-center mt-4">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#howWorksCarousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Step 1"></button>
+                            <button type="button" data-bs-target="#howWorksCarousel" data-bs-slide-to="1"
+                                aria-label="Step 2"></button>
+                            <button type="button" data-bs-target="#howWorksCarousel" data-bs-slide-to="2"
+                                aria-label="Step 3"></button>
+                            <button type="button" data-bs-target="#howWorksCarousel" data-bs-slide-to="3"
+                                aria-label="Step 4"></button>
+                            <button type="button" data-bs-target="#howWorksCarousel" data-bs-slide-to="4"
+                                aria-label="Step 5"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ****** CTA section ****** -->
+        <section id="cta" class="cta_section py-5 text-white">
+            <div class="container text-center">
+                <h2 class="fw-bold mb-3">Want To Contribute in Code?</h2>
+                <p class="mb-4 text-mute">
+                    Explore the code, contribute improvements, fix bugs, or create new features.
+                    Your pull requests make this project better for everyone.
+                </p>
+
+                <a href="https://github.com/anburocky3/tamil-mp3-downloader/blob/main/CONTRIBUTING.md"
+                    class="btn btn-custom d-inline-flex align-items-center gap-2">
+                    <i class="bi bi-file-pdf-fill"></i>
+                    Read Docs
+                </a>
+            </div>
+        </section>
+
+        <!-- ****** FAQ section ****** -->
+        <section id="faq" class="faq_section py-5">
+            <div class="container">
+
+                <div class="text-center mb-4">
+                    <h2 class="fw-bold">Frequently Asked Questions</h2>
+                    <p class="text-mute mb-0">Quick answers to help you get started.</p>
+                </div>
+
+                <div class="accordion accordion-flush mt-4" id="faqAccordion">
+                    <!-- Q1 -->
+                    <div class="accordion-item bg-dark accordian-custom rounded-3">
+                        <h3 class="accordion-header" id="faq1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#c1">
+                                <i class="bi bi-shield-check me-2 text-accent"></i>
+                                Is this tool safe and legal to use?
+                            </button>
+                        </h3>
+                        <div id="c1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-muted">
+                                The tool is safe and open source. Users are responsible for following their local
+                                copyright laws.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Q2 -->
+                    <div class="accordion-item bg-dark accordian-custom rounded-3">
+                        <h3 class="accordion-header" id="faq2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#c2">
+                                <i class="bi bi-gear-fill me-2 text-accent"></i>
+                                Which systems does it work on?
+                            </button>
+                        </h3>
+                        <div id="c2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-muted">
+                                It works on Windows and Linux, all you need is Python installed.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Q3 -->
+                    <div class="accordion-item bg-dark accordian-custom rounded-3">
+                        <h3 class="accordion-header" id="faq3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#c3">
+                                <i class="bi bi-music-note-beamed me-2 text-accent"></i>
+                                What formats does it download?
+                            </button>
+                        </h3>
+                        <div id="c3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-muted">
+                                The default output is MP3. Additional formats depend on your system’s conversion tools.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Q4 -->
+                    <div class="accordion-item bg-dark accordian-custom rounded-3">
+                        <h3 class="accordion-header" id="faq4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#c4">
+                                <i class="bi bi-bug-fill me-2 text-accent"></i>
+                                How do I report issues or request features?
+                            </button>
+                        </h3>
+                        <div id="c4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body text-muted">
+                                You can open an issue on GitHub with your details, logs or ideas for improvements.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ****** footer section ****** -->
+    <footer id="footer" class="footer_section py-5 text-white">
+        <div class="container">
+            <div class="row d-flex flex-column align-items-start g-4">
+                <!-- logo -->
+                <div class="footer-logo col-12 col-md-4 text-center text-md-start">
+                    <div class="footer-logo d-flex align-items-center justify-content-center justify-content-md-start">
+                        <img src="./img/logo.png" alt="MP3 Downloader Logo" class="footer-logo-img me-2">
+                        <h4 class="mb-0 fw-bold">MP3 Downloader</h4>
+                    </div>
+                </div>
+
+                <!-- docs links -->
+                <div class="footer-link col-12 col-md-6 text-center text-md-start ms-1">
+                    <ul class="list-unstyled footer-links mb-0">
+                        <div class="row">
+                            <li class="col"><a href="#home">Home</a></li>
+                            <li class="col"><a href="#about">About</a></li>
+                            <li class="col"><a href="#features">Features</a></li>
+                            <li class="col"><a href="#how-works">How It Works</a></li>
+                        </div>
+                    </ul>
+                </div>
+
+                <!-- Copyright -->
+                <div class="footer-copyright col-12 col-md-4 text-center text-md-start">
+                    <p class="small mb-0 text-white-50">
+                        © <span>2025</span> - MP3 Downloader. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ****** Bootstrap script ****** -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
